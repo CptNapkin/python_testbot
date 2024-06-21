@@ -5,7 +5,7 @@ from telebot import types
 bot = telebot.TeleBot('6510748134:AAE0JDtjRJ_SUH1HD_mRccstueZFXHJJ5Js')
 
 
-# обработка запроса на ссылку
+# обработка запроса на ссылки
 @bot.message_handler(commands=['site', 'website'])
 def site(message):
     webbrowser.open('https://youtube.com')
